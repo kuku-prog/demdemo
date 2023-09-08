@@ -25,6 +25,6 @@ app.post("/payments/create", async (req, res) => {
 	}
 });
 
-app.listen(8990, () => {
+app.listen(8980, () => {
 	console.log("server is listening to 8990");
 });
